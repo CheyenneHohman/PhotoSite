@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;700&display=swap');
+
+body {
+    background-color: #eee;
+}
+
+p {
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+
+    /* VW - viewport width = responsive design. Sets font/text size based on the width of the window the content is being viewed in (browser, via computer, mobile etc) */
+    font-size: 2vw;
+
+    text-align: center;
+    border-bottom: 5px solid #ccc;
+    padding-bottom: 10px;
+
+    /* Width of two images */
+    /* 22.5 * 2 = 45 */
+    /* Width between two images (Margin) */
+    /* 1.25 * 2 = 2.5 */
+    /* When we add the width of the paragraph element (AKA Bottom Border here) */
+
+    width: 47.8%;
+
+    /* Margin:Auto centers the element P horizontally inside the body element. */
+    margin: auto;
+}
+
+img {
+    /* 22.5 * 4 = 90 */
+    width: 22.5%;
+    /* 1.25 * 2 * 4 = 10 */
+    margin: 1.25%;
+
+    /* FLOAT places the element on the left or right side of its container/parent allowing text and inline elements to wrap around it. The element is removed from the normal document flow. Also removes the mystery space between image elements. (NOTE! This mystery space is the actual spaces between IMG elements in HTML files). */
+
+    float: left;
+}
